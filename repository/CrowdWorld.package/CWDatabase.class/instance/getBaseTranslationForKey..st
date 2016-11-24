@@ -1,10 +1,17 @@
 mongo
 getBaseTranslationForKey: aKey
-	| result queryData   |
-	
+	| result queryData  aBaseTranslation |
 	queryData := Dictionary new
-		at: 'lang' put:baseLang;
-		at: 'key' put:aKey;
+		at: 'locale' put: baseLang;
+		at: 'key' put: aKey;
 		yourself.
-	result := CWDatabase default translationsCollection  query: [ :query | query where: queryData ].
-	^ result first
+	result := self translationsCollection query: [ :query | query where: queryData ].
+	result
+		ifEmpty: [ aBaseTranslation := CWTranslation new
+				locale: (WALocale language: baseLang);
+				key: aKey;
+				translation: aKey;
+				yourself.
+			aBaseTranslation addToDatabase.
+			^ aBaseTranslation ].
+	^ CWTranslation createFromMongoDict: result first

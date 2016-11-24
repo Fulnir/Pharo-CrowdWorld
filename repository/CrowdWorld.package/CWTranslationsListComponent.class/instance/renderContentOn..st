@@ -8,5 +8,5 @@ renderContentOn: html
 					self renderTranslationsOn: html.
 					self renderFooterOn: html ] ]
 		ifFalse: [ 
-			message := T4FMessageComponent new infoMessage: 'You must connected to Strava'.
+			message := CWMessageComponent new infoMessage: 'You must connected to the app'.
 			html render: message ]

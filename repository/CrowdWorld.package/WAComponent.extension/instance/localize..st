@@ -1,7 +1,7 @@
-localization
+*CrowdWorld-Core
 localize: aGUIstring
 
 	aGUIstring ifNil: [ ^ '' ].
 	^ aGUIstring 
-		localizeEsta4StringToLang: self session localizeLang language 
+		localizeToLang: self session localizeLang language 
 		andCountry: self session localizeLang country

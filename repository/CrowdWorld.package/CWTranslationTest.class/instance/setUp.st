@@ -1,4 +1,5 @@
 testing
 setUp
 
-	cwDatabase := CWDatabase new.
+	cwDatabase := CWDatabase new .
+	cwDatabase openMongoTest .
