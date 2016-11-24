@@ -1,0 +1,15 @@
+{
+	"category" : "CrowdWorld-Example",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"userlang",
+		"usercountry" ],
+	"name" : "CWSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

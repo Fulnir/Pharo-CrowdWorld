@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"default" : "EdwinBuehler 11/22/2016 09:36",
+		"newDefault" : "EdwinBuehler 11/22/2016 09:36" },
+	"instance" : {
+		"baseLang" : "EdwinBuehler 11/24/2016 10:10",
+		"crowdDictionaryList" : "EdwinBuehler 11/22/2016 14:18",
+		"crowdDictionaryList:" : "EdwinBuehler 11/22/2016 14:18",
+		"getBaseTranslationForKey:" : "EdwinBuehler 11/24/2016 10:08",
+		"getTranslationsForLanguage:" : "EdwinBuehler 11/22/2016 15:22",
+		"initialize" : "EdwinBuehler 11/24/2016 10:08",
+		"initializeCrowdDictionary" : "EdwinBuehler 11/24/2016 10:03",
+		"mongo" : "EdwinBuehler 11/22/2016 14:05",
+		"mongo:" : "EdwinBuehler 11/22/2016 14:05",
+		"openMongo" : "EdwinBuehler 11/22/2016 14:17",
+		"translationsCollection" : "EdwinBuehler 11/22/2016 15:19",
+		"translationsCollection:" : "EdwinBuehler 11/22/2016 15:19" } }

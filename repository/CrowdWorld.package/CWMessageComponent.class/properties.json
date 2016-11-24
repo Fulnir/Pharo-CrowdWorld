@@ -1,0 +1,18 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messageString",
+		"colorString",
+		"iconString",
+		"messageType",
+		"wasShown" ],
+	"name" : "CWMessageComponent",
+	"pools" : [
+		 ],
+	"super" : "CWComponent",
+	"type" : "normal" }

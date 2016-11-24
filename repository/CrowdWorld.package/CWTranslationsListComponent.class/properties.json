@@ -1,0 +1,16 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"translationsList",
+		"database",
+		"selected" ],
+	"name" : "CWTranslationsListComponent",
+	"pools" : [
+		 ],
+	"super" : "CWComponent",
+	"type" : "normal" }

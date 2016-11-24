@@ -1,0 +1,15 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CWAllKnownPhrasesSet",
+		"CWAllKnownTranslatedPhrasesDictionary" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CWNaturalLanguageTranslator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

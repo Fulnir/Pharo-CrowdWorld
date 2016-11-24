@@ -1,0 +1,18 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mongo",
+		"database",
+		"translationsCollection",
+		"crowdDictionaryList",
+		"baseLang" ],
+	"name" : "CWDatabase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

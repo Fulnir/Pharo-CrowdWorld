@@ -1,0 +1,26 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mongo",
+		"oid",
+		"language",
+		"key",
+		"translation",
+		"base",
+		"lock",
+		"suggestions",
+		"group",
+		"comment",
+		"voted",
+		"newTranslation",
+		"suggestionsKeys" ],
+	"name" : "CWTranslation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

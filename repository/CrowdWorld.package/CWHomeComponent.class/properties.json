@@ -1,0 +1,14 @@
+{
+	"category" : "CrowdWorld-Example",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"localizationComponent" ],
+	"name" : "CWHomeComponent",
+	"pools" : [
+		 ],
+	"super" : "CWComponent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "CrowdWorld-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cwDatabase" ],
+	"name" : "CWTranslationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
