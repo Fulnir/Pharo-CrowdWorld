@@ -14,7 +14,8 @@
 		"suggestionsKeys",
 		"translation",
 		"toggleBox",
-		"selected" ],
+		"selected",
+		"suggestionList" ],
 	"name" : "CWTranslateComponent",
 	"pools" : [
 		 ],

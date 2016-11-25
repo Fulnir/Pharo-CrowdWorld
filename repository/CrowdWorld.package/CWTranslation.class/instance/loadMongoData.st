@@ -10,7 +10,7 @@ loadMongoData
 		at: 'lock' ifPresent: [ :arg5 | lock := arg5 ];
 		at: 'suggestions'
 			ifPresent: [ :arg6 | 
-			suggestions addAll: arg6.
+			"suggestions addAll: "(arg6 keysAndValuesDo: [:aKey : aValue | suggestions at: aKey put:  (OrderedCollection newFrom: aValue )]).
 			suggestionsKeys addAll: arg6 keys ].
 	"Group and comment  only needed for base entries"
 	locale greaseString = CWDatabase default baseLang

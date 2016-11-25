@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"createFromMongoDict:" : "EdwinBuehler 11/22/2016 15:21" },
+		"createFromMongoDict:" : "EdwinBuehler 11/25/2016 19:04" },
 	"instance" : {
 		"addToCWNaturalLanguageTranslator" : "EdwinBuehler 11/24/2016 17:33",
 		"addToDatabase" : "EdwinBuehler 11/24/2016 18:35",
+		"addUser:toSuggestion:" : "EdwinBuehler 11/25/2016 19:47",
 		"base" : "EdwinBuehler 11/22/2016 16:31",
 		"base:" : "EdwinBuehler 11/22/2016 19:37",
 		"comment" : "EdwinBuehler 11/24/2016 09:59",
@@ -13,7 +14,7 @@
 		"initialize" : "EdwinBuehler 11/24/2016 11:26",
 		"key" : "EdwinBuehler 11/22/2016 14:59",
 		"key:" : "EdwinBuehler 11/22/2016 19:37",
-		"loadMongoData" : "EdwinBuehler 11/24/2016 18:51",
+		"loadMongoData" : "EdwinBuehler 11/25/2016 19:04",
 		"locale" : "EdwinBuehler 11/24/2016 15:38",
 		"locale:" : "EdwinBuehler 11/24/2016 18:30",
 		"lock" : "EdwinBuehler 11/22/2016 14:59",
