@@ -70,7 +70,7 @@ button {
 	display: none;
 	position: absolute;
 	top: 0;
-	right: 10px;
+	left: 20px;
 	bottom: 0;
 	width: 40px;
 	height: 40px;
@@ -101,8 +101,8 @@ button {
 #translation-list li:hover .lock {
 	display: block;
 }
-/* Ein Haken */
-#suggestions-list li .vote {
+/* Ein Haken suggestions-list*/
+*[id^=''suggestions-list-'']  li .vote {
 	display: none;
 	position: absolute;
 	top: 0;
@@ -120,7 +120,7 @@ button {
 	transition: all 0.2s;
 }
 
-#suggestions-list li .vote:hover {
+*[id^=''suggestions-list-'']  li .vote:hover {
 	text-shadow: 0 0 1px #000,
 				 0 0 10px rgba(43, 4, 87, 0.8);
 	-webkit-transform: scale(1.3);
@@ -129,12 +129,41 @@ button {
 	-o-transform: scale(1.3);
 	transform: scale(1.3);
 }
-
-#suggestions-list li .vote:after {
+*[id^=''suggestions-list-''] li .vote:after {
 	content: ''👌'';
 }
 
-#suggestions-list li:hover .vote {
+
+*[id^=''suggestions-list-'']  li:hover .vote {
+	display: block;
+}
+
+/* New Suggestion imptfield*/
+#translation-list li .new-suggestion {
+	display: none;	
+	width: 250px;
+	height: 16px;
+	margin: auto 0;
+	font-size: 14px;
+	color: #a88a8a;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+/*
+#translation-list li .new-suggestion:hover {
+	text-shadow: 0 0 1px #000,
+				 0 0 10px rgba(43, 4, 87, 0.8);
+	-webkit-transform: scale(2.0);
+	-moz-transform: scale(2.0);
+	-ms-transform: scale(2.0);
+	-o-transform: scale(2.0);
+	transform: scale(2.0);
+}*/
+
+#translation-list li:hover .new-suggestion {
 	display: block;
 }
 '

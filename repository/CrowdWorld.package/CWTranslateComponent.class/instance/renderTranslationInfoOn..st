@@ -16,4 +16,4 @@ renderTranslationInfoOn: html
 							html tableData with: [ html label: translation translation ] ] ] ].
 	^ html div
 		class: 'note';
-		with: [ html text: (self localize: 'Comment') , ' ' , translation comment ]
+		with: [ html text:  translation comment ]

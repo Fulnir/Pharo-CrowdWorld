@@ -4,7 +4,7 @@ renderContentOn: html
 		id: nextJQueryID;
 		passenger: self;
 		with: [ html div
-				class: 'suggestion-view';
+				id: 'suggestion-view';
 				with: [ 
 					html text: suggestion.
 					html code

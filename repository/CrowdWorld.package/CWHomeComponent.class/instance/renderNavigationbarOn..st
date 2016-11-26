@@ -8,6 +8,4 @@ renderNavigationbarOn: html
 								url: CWLibrary / #BalloonPng .
 								html text: (self localize: 'Localization') , ' ' , (self localize: 'with') , ' ' , 'CrowdWorld'].
 					html mdlLayoutSpacer.
-					html code id: #informerField; with: ''.
-					html mdlLayoutSpacer.
 					html mdlNavigation: [ html text: '© 2016 by Edwin Bühler ' ] ] ]

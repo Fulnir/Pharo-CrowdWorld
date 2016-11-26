@@ -1,6 +1,8 @@
 rendering
 renderContentOn: html
 	| message |
+	html code id: #informerField; with: ''.
+	html break.
 	self session isLoggedIn
 		ifTrue: [ html section
 				id: #translations;

@@ -24,7 +24,7 @@ initializeCrowdDictionary
 	{('locale' -> 'en').
 	('key' -> 'Login').
 	('group' -> 'User').
-	('comment' -> 'Used in the main navigation br and drawer menu').
+	('comment' -> 'Used in the main navigation bar and drawer menu').
 	('translation' -> 'Login').
 	('lock' -> true)} asDictionary.
 	{('locale' -> 'en').
