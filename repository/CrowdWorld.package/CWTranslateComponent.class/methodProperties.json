@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSuggestion:translation:" : "EdwinBuehler 11/25/2016 17:41",
+		"addSuggestion:translation:" : "EdwinBuehler 11/26/2016 10:03",
 		"english" : "EdwinBuehler 11/22/2016 13:05",
 		"english:" : "EdwinBuehler 11/22/2016 13:05",
 		"initializeWithTranslation:in:" : "EdwinBuehler 11/25/2016 17:41",
@@ -11,7 +11,7 @@
 		"remove" : "EdwinBuehler 11/25/2016 19:15",
 		"renderContentOn:" : "EdwinBuehler 11/25/2016 19:51",
 		"renderSuggestion:On:" : "EdwinBuehler 11/25/2016 16:21",
-		"renderSuggestionsOn:" : "EdwinBuehler 11/25/2016 20:03",
+		"renderSuggestionsOn:" : "EdwinBuehler 11/25/2016 20:10",
 		"renderTranslationInfoOn:" : "EdwinBuehler 11/25/2016 14:59",
 		"suggestions" : "EdwinBuehler 11/22/2016 13:05",
 		"suggestions:" : "EdwinBuehler 11/22/2016 13:05",

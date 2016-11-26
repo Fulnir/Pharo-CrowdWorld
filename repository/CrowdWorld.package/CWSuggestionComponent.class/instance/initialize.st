@@ -1,4 +1,5 @@
 initialization
 initialize
 super initialize.
-voted := false
+nextJQueryID := CWTranslationsListComponent nextSuggestionJQuery asString asSymbol.
+voted := false.

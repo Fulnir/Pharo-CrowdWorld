@@ -6,13 +6,13 @@ renderSuggestionsOn: html
 		
 			html unorderedList
 				id: 'suggestions-list';
-				script:
+				"script:
 					(html jQuery this
 						on: 'click'
 						selector: '.vote'
 						do:
 							((html jQuery ajax callback: [ :passengers | passengers first vote . ] passengers: ((html jQuery expression: (JSStream on: 'event.target')) closest: 'li'))
-								asFunction: #(#event)));
+								asFunction: #(#event)));"
 				with: [ suggestionList do: [ :each | each renderOn: html ]
 
 					"	   self suggestionsKeys do: [ :aSugesstionKey | self renderSuggestion: aSugesstionKey On: html  ]" ]	" ;
