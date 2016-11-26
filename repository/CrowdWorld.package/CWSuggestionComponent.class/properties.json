@@ -10,6 +10,7 @@
 		"vote",
 		"voted",
 		"translation",
+		"translationComponent",
 		"nextJQueryID" ],
 	"name" : "CWSuggestionComponent",
 	"pools" : [

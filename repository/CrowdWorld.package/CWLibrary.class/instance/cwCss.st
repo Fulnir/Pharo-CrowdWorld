@@ -54,6 +54,17 @@ button {
 #translation-list li:last-child {
 	border-bottom: none;
 }
+#suggestions-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#suggestions-list li {
+	position: relative;
+	width: 250px;
+	font-size: 16px;
+	border-bottom: 1px dotted #ccc;
+}
 /* Ein Schloß */
 #translation-list li .lock {
 	display: none;
