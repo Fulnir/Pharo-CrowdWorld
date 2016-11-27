@@ -36,6 +36,24 @@ initializeCrowdDictionary
 	('translation' -> 'Grüezi').
 	('lock' -> false).
 	('suggestions' -> {('Grüezi' -> {})} asDictionary)} asDictionary.
+	{('locale' -> 'en').
+	('key' -> 'Translations').
+	('translation' -> 'Translations').
+	('lock' -> false)} asDictionary.
+	{('locale' -> 'de').
+	('key' -> 'Translations').
+	('translation' -> 'Übersetzungen').
+	('lock' -> false)} asDictionary.
+	
+	{('locale' -> 'en').
+	('key' -> 'Localization').
+	('translation' -> 'Localization').
+	('lock' -> true)} asDictionary.
+	{('locale' -> 'de').
+	('key' -> 'Localization').
+	('translation' -> 'Lokalisierung').
+	('lock' -> true)} asDictionary.
+	
 	{('locale' -> 'de').
 	('key' -> 'Hello').
 	('translation' -> 'Hallo').

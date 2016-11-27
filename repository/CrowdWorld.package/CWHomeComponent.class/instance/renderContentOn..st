@@ -9,6 +9,8 @@ renderContentOn: html
 						mdlGrid: [ html mdlCell size: 2.
 							html mdlCell
 								size: 8;
-								with: [ html render: localizationComponent ].
+								with: [ html div
+										id: 'localizationComponent';
+										with: localizationComponent " [ html render: localizationComponent ] "].
 							html mdlCell size: 2 ] ].
 			self renderFooterOn: html ]

@@ -6,6 +6,7 @@ allKnownTranslatedPhrases
 	CWAllKnownTranslatedPhrasesDictionary := nil.
 	CWDatabase default openMongo.
 	CWNaturalLanguageTranslator allKnownTranslatedPhrases.
+	CWNaturalLanguageTranslator updateAllPhrases.
 	"
 
 	CWAllKnownTranslatedPhrasesDictionary

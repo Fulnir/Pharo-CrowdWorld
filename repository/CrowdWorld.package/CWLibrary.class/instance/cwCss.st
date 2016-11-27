@@ -7,15 +7,7 @@ body {
 	background: #eaeaea url(''bg.png'');
 	color: #4d4d4d;
 }
-.help {
-    padding: 1em;
-    margin-bottom: 1em;
-    border: 1px solid #008aff;
-    background-color: #e6f4ff;
-}
-.helplink {
-    cursor: help;
-}
+
 button {
 	margin: 0;
 	padding: 0;
@@ -31,12 +23,15 @@ button {
 	-o-appearance: none;
 	appearance: none;
 }
+/* */
 .note { 
-	padding: 5px;
-	padding-left: 20px;
-	background: #eaeaea url(''notebg.png'') center center ; 
+	padding: 0px;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: rgba(255, 255,200, 0.8); 
+	/*background: #eaeaea url(''notebg.png'') center center ; 
 	background-size: 100%  100%;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	color: #220457;
  }
 #translation-list {
@@ -83,17 +78,15 @@ button {
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
-
-#translation-list li .lock:hover {
+#translation-list  li .lock:hover {
 	text-shadow: 0 0 1px #000,
 				 0 0 10px rgba(43, 4, 87, 0.8);
-	-webkit-transform: scale(2.3);
-	-moz-transform: scale(2.3);
-	-ms-transform: scale(2.3);
-	-o-transform: scale(2.3);
-	transform: scale(2.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
 }
-
 #translation-list li .lock:after {
 	content: ''🔓'';
 }

@@ -1,5 +1,5 @@
 localization
-localizeLang
+localizeLocale
 	| acceptLanguage theLang theCountry aCookieValue |
 	userlang ifNotNil: [ ^ WALocale language: userlang country: usercountry ].
 	theLang := 'en'.

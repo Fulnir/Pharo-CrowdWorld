@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isAdmin" : "EdwinBuehler 11/24/2016 09:44",
+		"isAdmin" : "EdwinBuehler 11/27/2016 09:42",
 		"isLoggedIn" : "EdwinBuehler 11/24/2016 09:43",
-		"localizeLang" : "EdwinBuehler 11/24/2016 09:06",
-		"userID" : "EdwinBuehler 11/25/2016 17:34",
+		"localizeLocale" : "EdwinBuehler 11/26/2016 19:05",
+		"userID" : "EdwinBuehler 11/27/2016 14:27",
+		"userID:" : "EdwinBuehler 11/27/2016 10:18",
 		"valueForCookie:" : "EdwinBuehler 11/24/2016 09:06" } }

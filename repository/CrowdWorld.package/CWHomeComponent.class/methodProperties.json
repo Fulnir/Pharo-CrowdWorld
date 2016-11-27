@@ -1,11 +1,14 @@
 {
 	"class" : {
 		"canBeRoot" : "EdwinBuehler 11/24/2016 09:23",
-		"initialize" : "EdwinBuehler 11/25/2016 10:37" },
+		"initialize" : "EdwinBuehler 11/27/2016 12:17" },
 	"instance" : {
 		"children" : "EdwinBuehler 11/24/2016 09:26",
 		"initialize" : "EdwinBuehler 11/24/2016 09:27",
-		"renderContentOn:" : "EdwinBuehler 11/26/2016 11:27",
+		"renderContentOn:" : "EdwinBuehler 11/27/2016 13:51",
 		"renderFooterOn:" : "EdwinBuehler 11/26/2016 11:10",
-		"renderNavigationbarOn:" : "EdwinBuehler 11/26/2016 15:03",
-		"updateRoot:" : "EdwinBuehler 11/26/2016 11:08" } }
+		"renderNavigationbarOn:" : "EdwinBuehler 11/27/2016 12:30",
+		"renderUserOptionOn:" : "EdwinBuehler 11/27/2016 14:25",
+		"setUser:" : "EdwinBuehler 11/27/2016 13:39",
+		"setUser:on:" : "EdwinBuehler 11/27/2016 13:49",
+		"updateRoot:" : "EdwinBuehler 11/27/2016 10:38" } }

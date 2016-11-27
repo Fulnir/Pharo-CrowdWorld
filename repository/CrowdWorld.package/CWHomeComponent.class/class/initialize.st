@@ -8,7 +8,7 @@ initialize
 	application := (WAAdmin register: self asApplicationAt: self appName).
 	application
 		addLibrary: JQ2DevelopmentLibrary ;
-		addLibrary: JQUiDevelopmentLibrary ;
+		"addLibrary: JQUiDevelopmentLibrary ;"
 		addLibrary: MDLLibrary;
 		"addLibrary: TBSDeploymentLibrary;"
 		addLibrary: CWLibrary.

@@ -1,5 +1,5 @@
 testing
 userID
 	"Replace with your user code"
-
-	^ 1
+	userIDforTesting ifNil:[userIDforTesting := 1].
+	^userIDforTesting

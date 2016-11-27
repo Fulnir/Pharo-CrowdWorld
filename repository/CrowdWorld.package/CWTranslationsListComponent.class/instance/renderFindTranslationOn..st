@@ -5,18 +5,11 @@ renderFindTranslationOn: html
 		id: #header;
 		with: [ helpId := html nextId.
 			html heading
-				class: 'helplink';
 				level: 1;
-				onClick:
-					(html scriptaculous effect
-						id: helpId;
-						toggleAppear);
-				with: (self localize: 'Translations') , ' - ' , self session localizeLang language.
-			html div
-				id: helpId;
-				class: 'help';
-				style: 'display: none';
-				with:( (self localize: 'Translations for the base language {base} and the target language {localized}')format: (Dictionary with: (#base->CWDatabase default baseLang)  with: #localized->self session localizeLang language)).
+				id: 'tooltipHeader1';				
+				with: (self localize: 'Translations') , ' - ' , self session localizeLocale language.
+				html mdlTooltip for: 'tooltipHeader1'; with: ( (self localize: 'Translations for the base language {base} and the target language {localized}')format: (Dictionary with: (#base->CWDatabase default baseLang)  with: #localized->self session localizeLocale language)).
+			
 			html textInput
 				id: #'new-translation';
 				autofocus;

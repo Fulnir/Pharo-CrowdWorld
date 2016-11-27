@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"nextSuggestionJQuery" : "EdwinBuehler 11/26/2016 10:17",
+		"nextSuggestionJQuery" : "EdwinBuehler 11/27/2016 12:43",
 		"resetNextSuggestionJQuery" : "EdwinBuehler 11/26/2016 10:16" },
 	"instance" : {
 		"addTranslation:" : "EdwinBuehler 11/22/2016 19:46",
 		"findTranslation:" : "EdwinBuehler 11/22/2016 18:49",
-		"initialize" : "EdwinBuehler 11/26/2016 10:17",
+		"initialize" : "EdwinBuehler 11/26/2016 19:05",
 		"renderAddNewTranslationOn:" : "EdwinBuehler 11/22/2016 15:46",
-		"renderContentOn:" : "EdwinBuehler 11/26/2016 15:03",
-		"renderFindTranslationOn:" : "EdwinBuehler 11/24/2016 11:39",
+		"renderAdminToolsOn:" : "EdwinBuehler 11/27/2016 17:04",
+		"renderContentOn:" : "EdwinBuehler 11/27/2016 14:28",
+		"renderFindTranslationOn:" : "EdwinBuehler 11/26/2016 19:11",
 		"renderFooterOn:" : "EdwinBuehler 11/26/2016 11:09",
-		"renderTranslationsOn:" : "EdwinBuehler 11/26/2016 15:44",
+		"renderTranslationsOn:" : "EdwinBuehler 11/27/2016 12:23",
 		"translationsList" : "EdwinBuehler 11/22/2016 13:37",
 		"translationsList:" : "EdwinBuehler 11/22/2016 13:37" } }

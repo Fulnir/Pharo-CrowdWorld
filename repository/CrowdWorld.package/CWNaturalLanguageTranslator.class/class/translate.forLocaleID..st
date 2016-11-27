@@ -6,11 +6,11 @@ translate: aPhrase forLocaleID: locale
 		ifAbsent: [ lang := locale language.
 			phraseDict := self allKnownTranslatedPhrases at: lang ifAbsent: [ ^ self addKnownPhrase: aPhrase ].
 			translation := phraseDict at: aPhrase ifAbsent: [ ^ self addKnownPhrase: aPhrase ].
-			^ translation content ].
+			^ translation translation ].
 	translation := phraseDict
 		at: aPhrase
 		ifAbsent: [ lang := locale language.
 			phraseDict := self allKnownTranslatedPhrases at: lang ifAbsent: [ ^ self addKnownPhrase: aPhrase ].
 			translation := phraseDict at: aPhrase ifAbsent: [ ^ self addKnownPhrase: aPhrase ].
-			^ translation content ].
-	^ translation content
+			^ translation translation ].
+	^ translation translation

@@ -2,11 +2,11 @@
 	"class" : {
 		"addKnownPhrase:" : "EdwinBuehler 11/24/2016 09:20",
 		"allKnownPhrases" : "EdwinBuehler 11/24/2016 09:16",
-		"allKnownTranslatedPhrases" : "EdwinBuehler 11/24/2016 18:39",
+		"allKnownTranslatedPhrases" : "EdwinBuehler 11/26/2016 19:15",
 		"for:setCWTranslation:locale:" : "EdwinBuehler 11/24/2016 17:33",
 		"for:translation:locale:" : "EdwinBuehler 11/24/2016 18:39",
-		"translate:forLocaleID:" : "EdwinBuehler 11/24/2016 09:14",
-		"updateAllPhrases" : "EdwinBuehler 11/24/2016 17:55",
-		"updateAllPhrasesForLocale:" : "EdwinBuehler 11/24/2016 17:34" },
+		"translate:forLocaleID:" : "EdwinBuehler 11/27/2016 16:07",
+		"updateAllPhrases" : "EdwinBuehler 11/27/2016 16:13",
+		"updateAllPhrasesForLocale:" : "EdwinBuehler 11/27/2016 16:15" },
 	"instance" : {
 		 } }
