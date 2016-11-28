@@ -6,7 +6,7 @@ renderNavigationbarOn: html
 						with: [ html image
 								style: 'height: 60px; margin-top: 20px';
 								url: CWLibrary / #BalloonPng.
-							html text: (self localize: 'Localization') , ' ' , (self localize: 'with') , ' ' , 'CrowdWorld' ].
+							html text: (self localize: 'Localization') , ' ' , (self localize: 'with' base: 'with' german: 'mit') , ' ' , 'CrowdWorld' ].
 					html mdlLayoutSpacer.
 					self renderUserOptionOn: html .
 					html mdlLayoutSpacer.

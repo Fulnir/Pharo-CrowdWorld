@@ -1,6 +1,7 @@
 rendering
 renderContentOn: html
 	| message |
+	
 	html code id: #informerField; with: ''.
 	
 		

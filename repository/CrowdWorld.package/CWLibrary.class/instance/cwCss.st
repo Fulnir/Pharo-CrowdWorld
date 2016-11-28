@@ -95,6 +95,9 @@ button {
 	display: block;
 }
 /* Ein Haken suggestions-list*/
+code { 
+ background: #eaeaea url(''bg.png'');
+ }
 *[id^=''suggestions-list-'']  li .vote {
 	display: none;
 	position: absolute;
