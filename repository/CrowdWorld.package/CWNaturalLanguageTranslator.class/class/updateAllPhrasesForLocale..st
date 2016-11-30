@@ -5,4 +5,5 @@ updateAllPhrasesForLocale: aLocale
 	allPhrasesInDB := CWDatabase default openMongo readAllCWTranslationsForLocale: aLocale.
 	allPhrasesInDB do: [:each| 
 		CWNaturalLanguageTranslator  for: each key setCWTranslation: each locale: aLocale. 
+		
 		].
