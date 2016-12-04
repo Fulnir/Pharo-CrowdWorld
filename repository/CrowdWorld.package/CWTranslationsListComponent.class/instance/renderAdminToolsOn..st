@@ -15,14 +15,14 @@ renderAdminToolsOn: html
 				id: 'adminButton-2';
 				onClick: (html jQuery ajax script: [ :s | CWNaturalLanguageTranslator updateAllPhrasesForLocale: self session localizeLocale ]);
 				with: (self localize: 'Update App from DB for Locale' , ' ' , self session localizeLocale greaseString).
-			codes := WALocale iso2Languages keys.	"collect:[:aLang | aLang first ]"
+			codes := CWNaturalLanguageTranslator allowedLanguages . "WALocale iso2Languages keys."	"collect:[:aLang | aLang first ]"
 			html
 				form: [ html
 						render:
 							(MDLSelectWidget
 								possibilities: codes
 								inputLabel: (self localize: 'Select a language')
-								labelBlock: [ :number | WALocale iso2Languages at: number ]
+								labelBlock: [ :number | self localize: (CWNaturalLanguageTranslator  self languagesEnglishNative at: (number first: 2))" (WALocale iso2Languages at: (number first: 2))" ]
 								callback: [ :input | 
 									Transcript
 										<< input;

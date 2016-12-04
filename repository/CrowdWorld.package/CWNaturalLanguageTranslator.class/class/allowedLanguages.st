@@ -1,3 +1,5 @@
 phrases
 allowedLanguages
-	^ {'en' . 'de' . 'fr'}
+	"{'en' . 'de' . 'fr'}"
+
+	^ CWAllKnownTranslatedPhrasesDictionary keys

@@ -5,7 +5,8 @@ addToDatabase
 		at: 'locale' put: locale greaseString;
 		at: 'translation' put: translation;
 		yourself.
-	
+"self halt.	"
+	Transcript show:key;cr.
 	CWDatabase default translationsCollection add: mongo.
 	(CWDatabase default getTranslationForKey: key locale: locale )
 		ifNotNilDo: [ :v | 
