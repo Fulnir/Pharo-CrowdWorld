@@ -1,0 +1,6 @@
+reading
+read
+	
+	
+	self 
+		nextString

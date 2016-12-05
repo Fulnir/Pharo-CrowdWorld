@@ -1,0 +1,19 @@
+{
+	"category" : "CrowdWorld-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suggestion",
+		"vote",
+		"voted",
+		"translation",
+		"translationComponent",
+		"nextJQueryID" ],
+	"name" : "CWSuggestionComponent",
+	"pools" : [
+		 ],
+	"super" : "CWComponent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfCrowdWorld",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfCrowdWorld",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

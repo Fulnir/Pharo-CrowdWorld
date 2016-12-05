@@ -8,6 +8,6 @@ initialize
 	newTranslation := ''.
 	translation := ''.
 	group := ''.
-	comment := ''.
+	comment :=''.
 	suggestions := Dictionary new.
 	suggestionsKeys := SortedCollection sortBlock: [ :x :y | x  > y  ]

@@ -17,33 +17,51 @@ initializeCrowdDictionary
 			 }
 	}
 	"
-	crowdDictionaryList := {{('lang' -> 'en').
+	crowdDictionaryList := {{('locale' -> 'en').
 	('key' -> 'Hello').
 	('translation' -> 'Hello').
 	('lock' -> true)} asDictionary.
-	{('lang' -> 'en').
+	{('locale' -> 'en').
 	('key' -> 'Login').
 	('group' -> 'User').
-	('comment' -> 'Used in the main navigation br and drawer menu').
+	('comment' -> 'Used in the main navigation bar and drawer menu').
 	('translation' -> 'Login').
 	('lock' -> true)} asDictionary.
-	{('lang' -> 'en').
+	{('locale' -> 'en').
 	('key' -> 'Home').
 	('translation' -> 'Home').
 	('lock' -> true)} asDictionary.
-	{('lang' -> 'de_ch').
+	{('locale' -> 'de_CH').
 	('key' -> 'Hello').
 	('translation' -> 'Grüezi').
 	('lock' -> false).
 	('suggestions' -> {('Grüezi' -> {})} asDictionary)} asDictionary.
-	{('lang' -> 'de').
+	{('locale' -> 'en').
+	('key' -> 'Translations').
+	('translation' -> 'Translations').
+	('lock' -> false)} asDictionary.
+	{('locale' -> 'de').
+	('key' -> 'Translations').
+	('translation' -> 'Übersetzungen').
+	('lock' -> false)} asDictionary.
+	
+	{('locale' -> 'en').
+	('key' -> 'Localization').
+	('translation' -> 'Localization').
+	('lock' -> true)} asDictionary.
+	{('locale' -> 'de').
+	('key' -> 'Localization').
+	('translation' -> 'Lokalisierung').
+	('lock' -> true)} asDictionary.
+	
+	{('locale' -> 'de').
 	('key' -> 'Hello').
 	('translation' -> 'Hallo').
 	('suggestions'
 		->
 			{('Hallo' -> {}).
 			('Guten Tag' -> {})} asDictionary)} asDictionary.
-	{('lang' -> 'de').
+	{('locale' -> 'de').
 	('key' -> 'Login').
 	('translation' -> 'Anmelden').
 	('suggestions'

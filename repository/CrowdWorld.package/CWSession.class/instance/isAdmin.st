@@ -2,4 +2,4 @@ testing
 isAdmin
 	"Replace with your user code"
 
-	^ true
+	^ userIDforTesting = 0
