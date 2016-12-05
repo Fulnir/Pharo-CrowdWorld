@@ -199,9 +199,7 @@ countriesChineseSimplified
   "Spain": "西班牙",
   "Sri Lanka": "斯里兰卡",
   "Saint Helena": "圣赫勒拿",
-  "St": {
-    " Pierre and Miquelon": "圣皮埃尔和密克隆"
-  },
+  "St Pierre and Miquelon": "圣皮埃尔和密克隆",
   "Sudan": "苏丹",
   "Suriname": "苏里南",
   "Swaziland": "斯威士兰",
@@ -233,11 +231,7 @@ countriesChineseSimplified
   "Venezuela": "委内瑞拉",
   "Vietnam": "越南",
   "Virgin Islands (British)": "维尔京群岛（英国）",
-  "U": {
-    "S": {
-      " Virgin Islands": "美属维尔京群岛"
-    }
-  },
+   "US Virgin Islands": "美属维尔京群岛",
   "Wallis and Futuna Islands": "瓦利斯和富图纳群岛",
   "Western Sahara": "西撒哈拉",
   "Yemen": "也门",

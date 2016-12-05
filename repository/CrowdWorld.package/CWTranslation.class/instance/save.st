@@ -1,7 +1,7 @@
 mongo
 save
 	| queryData result |
-self halt.		
+	
 	queryData := Dictionary new
 		at: '_id' put: self oid;
 		yourself.

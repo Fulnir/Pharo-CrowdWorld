@@ -17,6 +17,6 @@ renderAddNewSuggestionOn: html
 				onComplete: ( html jQuery ajax script: [:s | newSuggestion renderVotesOn:s ]);
 				onComplete: (html jQuery ajax callback: [ newSuggestion vote])"   );
 				
-		placeholder: (self localize: 'Suggest a new translation.')
+		placeholder: (self localize: 'CW_SuggestTranslation')
 		
 "	 ( html jQuery ajax script: [:s | self renderVotesOn:s ])"

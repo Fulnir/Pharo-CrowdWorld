@@ -5,6 +5,10 @@ addToDatabase
 		at: 'locale' put: locale greaseString;
 		at: 'translation' put: translation;
 		yourself.
+	self group ifNotEmpty:  [ mongo
+		at: 'group' put: group].
+	self comment ifNotEmpty: [ mongo
+		at: 'comment' put: comment].
 "self halt.	"
 	Transcript show:key;cr.
 	CWDatabase default translationsCollection add: mongo.

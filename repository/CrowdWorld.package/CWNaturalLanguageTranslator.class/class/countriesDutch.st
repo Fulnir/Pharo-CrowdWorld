@@ -199,9 +199,7 @@ countriesDutch
   "Spain": "Spanje",
   "Sri Lanka": "Sri Lanka",
   "Saint Helena": "Sint-Helena",
-  "St": {
-    " Pierre and Miquelon": "Saint-Pierre en Miquelon"
-  },
+ "St Pierre and Miquelon": "Saint-Pierre en Miquelon",
   "Sudan": "Soedan",
   "Suriname": "Suriname",
   "Swaziland": "Swaziland",
@@ -233,11 +231,7 @@ countriesDutch
   "Venezuela": "Venezuela",
   "Vietnam": "Vietnam",
   "Virgin Islands (British)": "Britse Maagdeneilanden",
-  "U": {
-    "S": {
-      " Virgin Islands": "Amerikaanse Maagdeneilanden"
-    }
-  },
+  "US Virgin Islands": "Amerikaanse Maagdeneilanden",
   "Wallis and Futuna Islands": "Wallis en Futuna",
   "Western Sahara": "Westelijke Sahara",
   "Yemen": "Jemen",

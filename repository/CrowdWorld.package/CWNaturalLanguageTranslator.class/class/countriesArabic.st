@@ -199,9 +199,7 @@ countriesArabic
   "Spain": "إسبانيا",
   "Sri Lanka": "سريلانكا",
   "Saint Helena": "سانت هيلينا",
-  "St": {
-    " Pierre and Miquelon": "St. Pierre and Miquelon"
-  },
+  "St Pierre and Miquelon": "St. Pierre and Miquelon",
   "Sudan": "السودان",
   "Suriname": "سورينام",
   "Swaziland": "سوازيلند",
@@ -233,11 +231,7 @@ countriesArabic
   "Venezuela": "فنزويلا",
   "Vietnam": "فيتنام",
   "Virgin Islands (British)": "Virgin Islands (British)",
-  "U": {
-    "S": {
-      " Virgin Islands": "جزر فيرجين الأمريكية"
-    }
-  },
+  "US Virgin Islands": "جزر فيرجين الأمريكية",
   "Wallis and Futuna Islands": "Wallis and Futuna Islands",
   "Western Sahara": "Western Sahara",
   "Yemen": "اليمن",

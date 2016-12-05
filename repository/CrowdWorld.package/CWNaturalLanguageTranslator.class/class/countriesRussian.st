@@ -199,9 +199,7 @@ countriesRussian
   "Spain": "Испания",
   "Sri Lanka": "Шри-Ланка",
   "Saint Helena": "Остров Святой Елены",
-  "St": {
-    " Pierre and Miquelon": "St. Pierre and Miquelon"
-  },
+  "St Pierre and Miquelon": "St. Pierre and Miquelon",
   "Sudan": "Судан",
   "Suriname": "Суринам",
   "Swaziland": "Свазиленд",
@@ -233,11 +231,7 @@ countriesRussian
   "Venezuela": "Венесуэла",
   "Vietnam": "Вьетнам",
   "Virgin Islands (British)": "Virgin Islands (British)",
-  "U": {
-    "S": {
-      " Virgin Islands": "Виргинские острова (США)"
-    }
-  },
+  "US Virgin Islands": "Виргинские острова (США)",
   "Wallis and Futuna Islands": "Wallis and Futuna Islands",
   "Western Sahara": "Western Sahara",
   "Yemen": "Йемен",

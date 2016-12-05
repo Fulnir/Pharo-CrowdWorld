@@ -11,7 +11,10 @@ loadMongoData
 		at: 'suggestions'
 			ifPresent: [ :arg6 | 
 			"suggestions addAll: "(arg6 keysAndValuesDo: [:aKey : aValue | suggestions at: aKey put:  (OrderedCollection newFrom: aValue )]).
-			suggestionsKeys addAll: arg6 keys ].
+			suggestionsKeys addAll: arg6 keys ]ifAbsent: [
+				suggestions at: translation put:  (OrderedCollection new ).
+				suggestionsKeys add: translation.
+			].
 	"Group and comment  only needed for base entries"
 	locale greaseString = CWDatabase default baseLang
 		ifTrue: [ self mongo

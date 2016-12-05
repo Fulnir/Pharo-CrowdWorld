@@ -199,9 +199,7 @@ countriesGreek
   "Spain": "Ισπανία",
   "Sri Lanka": "Σρι Λάνκα",
   "Saint Helena": "Αγία Ελένη",
-  "St": {
-    " Pierre and Miquelon": "St. Pierre and Miquelon"
-  },
+  "St Pierre and Miquelon": "St. Pierre and Miquelon",
   "Sudan": "Σουδάν",
   "Suriname": "Σούριναμ",
   "Swaziland": "Σουαζιλάνδη",
@@ -233,11 +231,7 @@ countriesGreek
   "Venezuela": "Βενεζουέλα",
   "Vietnam": "Βιετνάμ",
   "Virgin Islands (British)": "Virgin Islands (British)",
-  "U": {
-    "S": {
-      " Virgin Islands": "Παρθένα νησιά (Η.Π.Α.)"
-    }
-  },
+  "US Virgin Islands": "Παρθένα νησιά (Η.Π.Α.)",
   "Wallis and Futuna Islands": "Wallis and Futuna Islands",
   "Western Sahara": "Western Sahara",
   "Yemen": "Υεμένη",

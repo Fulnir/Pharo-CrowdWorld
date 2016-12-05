@@ -4,10 +4,10 @@ renderTranslationInfoOn: html
 		shadow: 2;
 		with: [ html
 				tableHead: [ html
-						tableRow: [ html mdlTableHeading: (self localize: 'Key').
-							html tableHeading: (self localize: 'Group').
-							html tableHeading: (self localize: 'Base').
-							html tableHeading: (self localize: 'Translation') ] ].
+						tableRow: [ html mdlTableHeading: (self localize: 'CW_Key').
+							html tableHeading: (self localize: 'CW_Group').
+							html tableHeading: (self localize: 'CW_Base').
+							html tableHeading: (self localize: 'CW_Translation') ] ].
 			html
 				tableBody: [ html
 						tableRow: [ html tableData with: [ html label: translation key ].

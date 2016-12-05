@@ -199,9 +199,7 @@ countriesJapanese
   "Spain": "スペイン",
   "Sri Lanka": "スリランカ",
   "Saint Helena": "セントヘレナ島",
-  "St": {
-    " Pierre and Miquelon": "St. Pierre and Miquelon"
-  },
+ "St Pierre and Miquelon": "St. Pierre and Miquelon",
   "Sudan": "スーダン",
   "Suriname": "スリナム",
   "Swaziland": "スワジランド",
@@ -233,11 +231,7 @@ countriesJapanese
   "Venezuela": "ベネズエラ",
   "Vietnam": "ベトナム",
   "Virgin Islands (British)": "Virgin Islands (British)",
-  "U": {
-    "S": {
-      " Virgin Islands": "米領バージン諸島"
-    }
-  },
+  "US Virgin Islands": "米領バージン諸島",
   "Wallis and Futuna Islands": "Wallis and Futuna Islands",
   "Western Sahara": "Western Sahara",
   "Yemen": "イエメン",

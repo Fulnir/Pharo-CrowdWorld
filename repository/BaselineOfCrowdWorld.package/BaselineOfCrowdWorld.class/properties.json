@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCrowdWorld",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCrowdWorld",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

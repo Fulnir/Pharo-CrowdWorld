@@ -22,7 +22,7 @@ renderAdminToolsOn: html
 							(MDLSelectWidget
 								possibilities: codes
 								inputLabel: (self localize: 'Select a language')
-								labelBlock: [ :number | self localize: (CWNaturalLanguageTranslator  self languagesEnglishNative at: (number first: 2))" (WALocale iso2Languages at: (number first: 2))" ]
+								labelBlock: [ :number |self localize: ((CWNaturalLanguageTranslator   languagesEnglishNative at: (number first: 2))at: 'name' )" (WALocale iso2Languages at: (number first: 2))" ]
 								callback: [ :input | 
 									Transcript
 										<< input;

@@ -199,9 +199,7 @@ countriesSpanish
   "Spain": "España",
   "Sri Lanka": "Sri Lanka",
   "Saint Helena": "Santa Helena",
-  "St": {
-    " Pierre and Miquelon": "St. Pierre and Miquelon"
-  },
+  "St Pierre and Miquelon": "St. Pierre and Miquelon",
   "Sudan": "Sudán",
   "Suriname": "Surinam",
   "Swaziland": "Suazilandia",
@@ -233,11 +231,7 @@ countriesSpanish
   "Venezuela": "Venezuela",
   "Vietnam": "Vietnam",
   "Virgin Islands (British)": "Virgin Islands (British)",
-  "U": {
-    "S": {
-      " Virgin Islands": "Islas Vírgenes (EE UU)"
-    }
-  },
+  "US Virgin Islands": "Islas Vírgenes (EE UU)",
   "Wallis and Futuna Islands": "Wallis and Futuna Islands",
   "Western Sahara": "Western Sahara",
   "Yemen": "Yemen",
