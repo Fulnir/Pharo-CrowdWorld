@@ -6,6 +6,8 @@ allKnownTranslatedPhrases
 	CWAllKnownTranslatedPhrasesDictionary := nil.
 	CWDatabase default openMongo.
 	CWNaturalLanguageTranslator allKnownTranslatedPhrases.
+		CWNaturalLanguageTranslator addCountriesToKnownTranslatedPhrases.
+		CWNaturalLanguageTranslator addLanguagesToKnownTranslatedPhrases.
 	
 	CWNaturalLanguageTranslator updateAllPhrases.
 	"
@@ -20,6 +22,8 @@ allKnownTranslatedPhrases
 			self for: 'CW_Group' translation: 'Group' locale: (WALocale language: 'en') group: 'CrowdWorld' comment:'Phrases group like countries. languages ...'.
 			self for: 'CW_Translation' translation: 'Translation' locale: (WALocale language: 'en') group: 'CrowdWorld' comment:'The current tranlation for a phrase'.
 			self for: 'CW_SuggestTranslation' translation: 'Suggest a new translation' locale: (WALocale language: 'en') group: 'CrowdWorld' comment:'The placeholder text for the suggestion field.'.
+			self for: 'CW_Lang_Select_Tooltip' translation: 'If you want to edit a language other than your own, select it here. Then click the ''Submit'' button' locale: (WALocale language: 'en') group: 'CrowdWorld' comment:'Tooltip for selection'.
+			
 			self for: 'Suggestion' translation: 'Suggestion' locale: (WALocale language: 'en').
 			self for: 'Help_Support' translation: 'Help' locale: (WALocale language: 'en').			
 			self for: 'About' translation: 'About' locale: (WALocale language: 'en').
@@ -36,23 +40,6 @@ allKnownTranslatedPhrases
 			self for: 'Suggestion' translation: 'Vorschläge' locale: (WALocale language: 'de').
 			
 			self welcome.
-			"Countries"
-			self countriesEnglish keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'en') group: 'Country' comment:'The englisch name for the country ',aTranslation ].
-			self countriesGerman keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'de') ].
-			self countriesFrench  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'fr') ].
-			self countriesItalian  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'it') ].
-			self countriesSpanish  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'es') ].
-			self countriesJapanese   keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'ja') ].
-			self countriesChineseSimplified  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'zh-CN') ].
-			self countriesChineseTraditional  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'zh-TW') ].
-			self countriesArabic  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'ar') ].
-			self countriesDutch  keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'nl') ].
-			self countriesGreek keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'el') ].
-			self countriesRussian keysAndValuesDo: [ :aKey :aTranslation |  self for: aKey translation: aTranslation locale: (WALocale language: 'ru') ].
-			"Language"
-			self languagesEnglishNative keysAndValuesDo: [  :aISO2 :aNameDict| 
-				self for:(aNameDict at: 'name') translation:(aNameDict at: 'name')  locale: (WALocale language: 'en') group: 'Language' comment:'A language name'.
-				self for:(aNameDict at: 'name') translation:(aNameDict at: 'nativeName')  locale: (WALocale language: aISO2).
-				].
+			
 		].
 	 ^ self cWAllKnownTranslatedPhrasesDictionary

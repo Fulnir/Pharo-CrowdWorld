@@ -11,6 +11,7 @@ initialize
 		"addLibrary: JQUiDevelopmentLibrary ;"
 		addLibrary: MDLLibrary;
 		"addLibrary: TBSDeploymentLibrary;"
+		addLibrary: FAWDeploymentLibrary ;
 		addLibrary: CWLibrary.
 	application preferenceAt: #sessionClass put: CWSession.
 	application preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
