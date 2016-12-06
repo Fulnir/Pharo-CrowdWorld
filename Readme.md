@@ -2,7 +2,7 @@
 
 ##*UNDER DEVELOPMENT*
 
-Some things does't work yet. Voting, Searching....
+Some things doesn't work yet. Voting, Searching....
 
 A localization tool for "Pharo" and "Seaside". It uses MongoDB to store the phrases and their translations. The localization component let users vote between several translations, or to suggest their own.
  

@@ -16,11 +16,11 @@ loadMongoData
 				suggestionsKeys add: translation.
 			].
 	"Group and comment  only needed for base entries"
-	locale greaseString = CWDatabase default baseLang
+	locale greaseString = contextDB baseLang
 		ifTrue: [ self mongo
 				at: 'group' ifPresent: [ :arg7 | group := arg7 ];
 				at: 'comment' ifPresent: [ :arg8 | comment := arg8 ] ]
-		ifFalse: [ baseTranslation := CWDatabase default getBaseTranslationForKey: key.
+		ifFalse: [ baseTranslation := contextDB getBaseTranslationForKey: key.
 			base := baseTranslation translation.
 			group := baseTranslation group.
 			comment := baseTranslation comment.

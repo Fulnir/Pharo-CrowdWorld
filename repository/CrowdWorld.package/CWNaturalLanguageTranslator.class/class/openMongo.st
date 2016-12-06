@@ -1,0 +1,3 @@
+mongo
+openMongo
+	^ contextDB openMongo

@@ -7,11 +7,11 @@ getBaseTranslationForKey: aKey
 		yourself.
 	result := self translationsCollection query: [ :query | query where: queryData ].
 	result
-		ifEmpty: [ aBaseTranslation := CWTranslation new
+		ifEmpty: [ aBaseTranslation := (CWTranslation newWithDB: self)
 				locale: (WALocale language: baseLang);
 				key: aKey;
 				translation: aKey;
 				yourself.
 			aBaseTranslation addToDatabase.
 			^ aBaseTranslation ].
-	^ CWTranslation createFromMongoDict: result first
+	^ CWTranslation createFromMongoDict: result first  withDB: self

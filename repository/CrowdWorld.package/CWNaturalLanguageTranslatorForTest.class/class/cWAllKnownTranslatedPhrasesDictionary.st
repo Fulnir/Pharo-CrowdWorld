@@ -1,0 +1,4 @@
+accessing
+cWAllKnownTranslatedPhrasesDictionary
+
+	^ CWAllKnownTranslatedPhrasesDictionary_TEST

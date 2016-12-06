@@ -2,4 +2,4 @@ phrases
 allowedLanguages
 	"{'en' . 'de' . 'fr'}"
 
-	^ CWAllKnownTranslatedPhrasesDictionary keys
+	^ self cWAllKnownTranslatedPhrasesDictionary keys

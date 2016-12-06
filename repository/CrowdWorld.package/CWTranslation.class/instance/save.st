@@ -5,9 +5,9 @@ save
 	queryData := Dictionary new
 		at: '_id' put: self oid;
 		yourself.
-	result := CWDatabase default translationsCollection query: [ :query | query where: queryData ].
+	result := contextDB  translationsCollection query: [ :query | query where: queryData ].
 	result isEmpty
-		ifFalse: [ CWDatabase default translationsCollection
+		ifFalse: [ contextDB translationsCollection
 				replace:
 					(Dictionary new
 						at: '_id' put: self oid;

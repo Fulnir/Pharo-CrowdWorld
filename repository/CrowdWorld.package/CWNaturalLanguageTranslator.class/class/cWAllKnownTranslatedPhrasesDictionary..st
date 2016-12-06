@@ -1,0 +1,3 @@
+accessing
+cWAllKnownTranslatedPhrasesDictionary: anObject
+	CWAllKnownTranslatedPhrasesDictionary := anObject

@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "EdwinBuehler 11/27/2016 14:58",
-		"testUpdateAllPhrases" : "EdwinBuehler 11/27/2016 15:59" } }
+		"setUp" : "EdwinBuehler 12/6/2016 12:42",
+		"tearDown" : "EdwinBuehler 12/5/2016 19:31",
+		"testUpdateAllPhrases" : "EdwinBuehler 12/6/2016 15:30" } }

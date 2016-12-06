@@ -10,9 +10,10 @@ addToDatabase
 	self comment ifNotEmpty: [ mongo
 		at: 'comment' put: comment].
 "self halt.	"
-	Transcript show:key;cr.
-	CWDatabase default translationsCollection add: mongo.
-	(CWDatabase default getTranslationForKey: key locale: locale )
+	Transcript show:'s ';show:key;cr.
+	contextDB  translationsCollection add: mongo.
+	Transcript show:'e '; show:key;cr.
+	(contextDB getTranslationForKey: key locale: locale )
 		ifNotNilDo: [ :v | 
 			self mongo: v first  mongo.
 			oid := self mongo at: '_id'.

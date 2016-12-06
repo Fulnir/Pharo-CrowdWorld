@@ -25,15 +25,24 @@ button {
 }
 /* */
 .note { 
+	margin: 0;
 	padding: 0px;
-	padding-left: 10px;
+	padding-left: 2px;
 	font-size: 14px;
 	background-color: rgba(255, 255,200, 0.8); 
-	/*background: #eaeaea url(''notebg.png'') center center ; 
-	background-size: 100%  100%;
-	background-repeat: no-repeat;*/
 	color: #220457;
  }
+#SugesstionInfo { 
+	margin: 0;
+	padding: 0px;
+	padding-left: 2px;
+	font-size: 14px;
+	background-color: rgba(43, 4, 87, 0.1); 
+	color: #220457;
+	border-left: 1px dotted #c0c;
+	border-bottom: 1px dotted #c0c;
+ }
+
 #translation-list {
 	margin: 0;
 	padding: 0;
