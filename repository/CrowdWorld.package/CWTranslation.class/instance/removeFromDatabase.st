@@ -6,4 +6,4 @@ removeFromDatabase
 		at: 'key' put: key;
 		at: 'translation' put: translation;
 		yourself.
-	CWDatabase default  translationsCollection remove: queryData
+	contextDB  translationsCollection remove: queryData

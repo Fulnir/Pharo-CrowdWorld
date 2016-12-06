@@ -1,7 +1,8 @@
 {
 	"category" : "CrowdWorld-Core",
 	"classinstvars" : [
-		"default" ],
+		"default",
+		"test" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -9,6 +10,7 @@
 		"mongo",
 		"database",
 		"translationsCollection",
+		"naturalLanguageTranslator",
 		"crowdDictionaryList",
 		"baseLang" ],
 	"name" : "CWDatabase",

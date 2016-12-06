@@ -10,8 +10,8 @@ allKnownTranslatedPhrases
 	CWNaturalLanguageTranslator updateAllPhrases.
 	"
 
-	CWAllKnownTranslatedPhrasesDictionary
-		ifNil: [ CWAllKnownTranslatedPhrasesDictionary := Dictionary new.
+	self cWAllKnownTranslatedPhrasesDictionary
+		ifNil: [ self cWAllKnownTranslatedPhrasesDictionary: Dictionary new.
 			self for: 'Translations' translation: 'Translations' locale: (WALocale language: 'en').
 			self for: 'Localization' translation: 'Localization' locale: (WALocale language: 'en').
 			self for: 'CW_Key' translation: 'Key' locale: (WALocale language: 'en') group: 'CrowdWorld' comment:'The key for a phrase.'.
@@ -55,4 +55,4 @@ allKnownTranslatedPhrases
 				self for:(aNameDict at: 'name') translation:(aNameDict at: 'nativeName')  locale: (WALocale language: aISO2).
 				].
 		].
-	 ^ CWAllKnownTranslatedPhrasesDictionary
+	 ^ self cWAllKnownTranslatedPhrasesDictionary

@@ -18,7 +18,8 @@
 		"comment",
 		"voted",
 		"newTranslation",
-		"suggestionsKeys" ],
+		"suggestionsKeys",
+		"contextDB" ],
 	"name" : "CWTranslation",
 	"pools" : [
 		 ],

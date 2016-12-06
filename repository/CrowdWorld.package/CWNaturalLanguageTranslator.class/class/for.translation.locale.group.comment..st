@@ -2,10 +2,10 @@ accessing
 for: aPhrase translation: aTranslation locale: aLocale group: aGroup comment: aComment
 	| aDict aGui |
 	self addKnownPhrase: aPhrase.
-	aDict := CWAllKnownTranslatedPhrasesDictionary
+	aDict := self cWAllKnownTranslatedPhrasesDictionary
 		at: aLocale greaseString
-		ifAbsent: [ aDict := CWAllKnownTranslatedPhrasesDictionary at: aLocale greaseString put: Dictionary new ].
-	aGui := CWTranslation new
+		ifAbsent: [ aDict := self cWAllKnownTranslatedPhrasesDictionary at: aLocale greaseString put: Dictionary new ].
+	aGui := self newCWTranslation
 		setLocale: aLocale;
 		key: aPhrase;
 		translation: aTranslation;

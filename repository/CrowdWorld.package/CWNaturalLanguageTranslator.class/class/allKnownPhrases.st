@@ -2,5 +2,5 @@ phrases
 allKnownPhrases
 	"CWNaturalLanguageTranslator allKnownPhrases"
 
-	CWAllKnownPhrasesSet ifNil: [ CWAllKnownPhrasesSet := Set new ].
-	^ CWAllKnownPhrasesSet
+	self cWAllKnownPhrasesSet ifNil: [ self cWAllKnownPhrasesSet: Set new ].
+	^ self cWAllKnownPhrasesSet 

@@ -1,5 +1,10 @@
 testing
 setUp
 
-	cwDatabase := CWDatabase new .
+	cwDatabase := CWDatabase newTest .
+	
+	cwDatabase naturalLanguageTranslator cWAllKnownTranslatedPhrasesDictionary: nil.
+	
 	cwDatabase openMongoTest .
+	
+	

@@ -9,6 +9,6 @@ getTranslationForKey: key locale: aLocale
 	results:= self translationsCollection  query: [ :query | query where: queryData ].
 	results isEmpty
 		ifTrue: [ ^ nil ]
-		ifFalse: [ ^ results collect: [ :v | CWTranslation createFromMongoDict: v ] ]
+		ifFalse: [ ^ results collect: [ :v | CWTranslation createFromMongoDict: v  withDB: self] ]
 		
 	

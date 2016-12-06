@@ -8,7 +8,7 @@ renderAdminToolsOn: html
 			html mdlButton
 				raised;
 				id: 'adminButton-1';
-				onClick: (html jQuery ajax script: [ :s | CWNaturalLanguageTranslator updateAllPhrases ]);
+				onClick: (html jQuery ajax script: [ :s | CWDatabase default naturalLanguageTranslator updateAllPhrases ]);
 				with: (self localize: 'Update App from DB').
 			html mdlButton
 				raised;

@@ -1,0 +1,16 @@
+{
+	"category" : "CrowdWorld-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CWAllKnownPhrasesSet_TEST",
+		"CWAllKnownTranslatedPhrasesDictionary_TEST",
+		"contextDB_TEST" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CWNaturalLanguageTranslatorForTest",
+	"pools" : [
+		 ],
+	"super" : "CWNaturalLanguageTranslator",
+	"type" : "normal" }
