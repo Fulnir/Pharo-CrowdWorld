@@ -2,7 +2,6 @@
 
 ##*UNDER DEVELOPMENT*
 
-Some things doesn't work yet. Searching....
 
 A localization tool for "Pharo" and "Seaside". It uses MongoDB to store the phrases and their translations. The localization component let users vote between several translations, or to suggest their own.
  
@@ -64,4 +63,6 @@ All translations are cached in the class `CWNaturalLanguageTranslator`. There is
 Untranslated prases cached in the class variable `CWAllKnownPhrasesSet` and localized phrases are cached in the class variable `CWAllKnownTranslatedPhrasesDictionary`
 
 ## Voting
+
+
 
