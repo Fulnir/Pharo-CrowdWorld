@@ -8,7 +8,8 @@
 	"instvars" : [
 		"translationsList",
 		"database",
-		"selected" ],
+		"selected",
+		"currentLang" ],
 	"name" : "CWTranslationsListComponent",
 	"pools" : [
 		 ],

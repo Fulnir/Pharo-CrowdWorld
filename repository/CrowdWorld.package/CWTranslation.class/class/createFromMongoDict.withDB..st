@@ -2,8 +2,6 @@ as yet unclassified
 createFromMongoDict: mongoObject withDB: aDB
 	| newObject suggestions |
 	newObject := self newWithDB: aDB.
-	"Key ist hier strava id"
-
 	mongoObject
 		at: 'suggestions'
 		ifPresent: [ suggestions := Dictionary new.

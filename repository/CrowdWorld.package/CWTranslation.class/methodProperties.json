@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"createFromMongoDict:" : "EdwinBuehler 11/25/2016 19:04",
-		"createFromMongoDict:withDB:" : "EdwinBuehler 12/5/2016 19:42",
+		"createFromMongoDict:" : "EdwinBuehler 12/6/2016 17:38",
+		"createFromMongoDict:withDB:" : "EdwinBuehler 12/6/2016 17:38",
 		"newWithDB:" : "EdwinBuehler 12/6/2016 13:31" },
 	"instance" : {
 		"addToCWNaturalLanguageTranslator" : "EdwinBuehler 12/6/2016 09:39",
-		"addToDatabase" : "EdwinBuehler 12/6/2016 15:27",
+		"addToDatabase" : "EdwinBuehler 12/6/2016 17:47",
 		"addUser:toSuggestion:" : "EdwinBuehler 11/26/2016 16:48",
 		"base" : "EdwinBuehler 11/22/2016 16:31",
 		"base:" : "EdwinBuehler 11/22/2016 19:37",

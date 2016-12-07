@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"addCountriesToKnownTranslatedPhrases" : "EdwinBuehler 12/6/2016 17:44",
 		"addKnownPhrase:" : "EdwinBuehler 11/24/2016 09:20",
+		"addLanguagesToKnownTranslatedPhrases" : "EdwinBuehler 12/6/2016 19:54",
 		"allKnownPhrases" : "EdwinBuehler 12/6/2016 09:53",
-		"allKnownTranslatedPhrases" : "EdwinBuehler 12/6/2016 13:05",
+		"allKnownTranslatedPhrases" : "EdwinBuehler 12/6/2016 19:10",
 		"allowedLanguages" : "EdwinBuehler 12/6/2016 09:58",
 		"cWAllKnownPhrasesSet" : "EdwinBuehler 12/6/2016 09:52",
 		"cWAllKnownPhrasesSet:" : "EdwinBuehler 12/6/2016 09:52",
@@ -23,7 +25,7 @@
 		"countriesRussian" : "EdwinBuehler 12/5/2016 09:27",
 		"countriesSpanish" : "EdwinBuehler 12/5/2016 09:27",
 		"countries_TEMPLATE" : "EdwinBuehler 12/4/2016 19:14",
-		"for:setCWTranslation:locale:" : "EdwinBuehler 12/6/2016 09:58",
+		"for:setCWTranslation:locale:" : "EdwinBuehler 12/7/2016 09:04",
 		"for:translation:locale:" : "EdwinBuehler 12/5/2016 08:51",
 		"for:translation:locale:group:comment:" : "EdwinBuehler 12/6/2016 13:35",
 		"getBaseFor:" : "EdwinBuehler 11/28/2016 19:14",

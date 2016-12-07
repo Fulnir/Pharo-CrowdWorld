@@ -8,23 +8,28 @@ renderTranslationInfo2On: html
 				style: 'margin: 10px; width: 100%; height: 60px; ';
 				with: [ html
 						mdlGrid: [ html mdlCell
-								size: 2;
-								id: 'SugesstionInfo';
-								with: [ html text: (self localize: 'CW_Key').
-									html break.
-									html text: (self localize: 'CW_Group') ].
+								size: 1;
+								with: [ html div
+										fontAwesome;
+										with: [ html span fontAwesomeTagIcon ]	"html text: (self localize: 'CW_Key')." ].
 							html mdlCell
-								size: 3;
-								id: 'SugesstionInfo';
-								with: [ html label: translation key.
-									html break.
-									html label: translation group ].
+								size: 4;
+								with: [ html label: translation group ].
 							html mdlCell size: 7.
 							html mdlCell
+								size: 1;
+								with: [ html div
+										fontAwesome;
+										with: [ html span fontAwesomeKeyIcon ]	"html text: (self localize: 'CW_Group')" ].
+							html mdlCell
+								size: 11;
+								with: [ html label: translation key ].
+							html mdlCell
 								size: 2;
-								with: [ html text: (self localize: 'CW_Base').
+								with:
+										[ html text: (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: translation contextDB baseLang) at: 'name')).	"(self localize: 'CW_Base') "
 									html break.
-									html text: (self localize: 'CW_Translation') ].
+									html text: (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: translation locale greaseString) at: 'name'))	" (self localize: 'CW_Translation') " ].
 							html mdlCell
 								size: 4;
 								with: [ html label: translation base.
