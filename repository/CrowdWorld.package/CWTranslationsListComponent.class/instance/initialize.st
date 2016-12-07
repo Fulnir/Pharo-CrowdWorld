@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	selected := Set new.
+	"selected := Set new."
 	self class resetNextSuggestionJQuery.
 	translationsList := SortedCollection sortBlock: [ :x :y | x translation voted == y translation voted ].
 	database := CWDatabase newDefault openMongo.

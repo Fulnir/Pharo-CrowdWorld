@@ -171,7 +171,8 @@ code {
 #translation-list li:hover .new-suggestion {
 	display: block;
 }
-.new-suggestion .edit {
+
+ .new-suggestion .edit {
 	position: relative;
 	margin: 0;
 	width: 100%;
@@ -196,7 +197,7 @@ code {
 	font-smoothing: antialiased;
 }
 
-.new-suggestion {
+ .new-suggestion {
 	padding:5px 5px 5px 40px;
 	border: none;
 	background: rgba(43, 4, 87, 0.05);

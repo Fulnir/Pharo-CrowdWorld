@@ -26,7 +26,7 @@ renderAdminToolsOn: html
 								labelBlock:
 									[ :number | self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: (number first: 2)) at: 'name')	" (WALocale iso2Languages at: (number first: 2))" ]
 								callback: [ :input | self changeLocaleTo: (WALocale fromString: input) ]
-								selectedObject: self session localizeLocale language
+								selectedObject: currentLang language
 								tooltip: (self localize: 'CW_Lang_Select_Tooltip')
 								sortBlock: [ :a :b | a <= b ]).
 					html space.
