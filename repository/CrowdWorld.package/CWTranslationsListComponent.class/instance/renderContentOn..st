@@ -10,10 +10,10 @@ renderContentOn: html
 			html heading
 				level: 1;
 				id: 'tooltipHeader1';
-				with:
+				with: [ html html: '<i class="fa fa-language"></i> '. html text:  
 					(self localize: 'Translations') , '  ' , (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: CWDatabase default baseLang) at: 'name'))
 						, ' - ' , (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: currentLang language) at: 'name')) , ' ('
-						, currentLang greaseString , ')'.
+						, currentLang greaseString , ')' ].
 			html mdlTooltip
 				for: 'tooltipHeader1';
 				with:
