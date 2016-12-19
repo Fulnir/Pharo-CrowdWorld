@@ -29,7 +29,7 @@ renderTranslationInfo2On: html
 								with:
 										[ html text: (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: translation contextDB baseLang) at: 'name')).	"(self localize: 'CW_Base') "
 									html break.
-									html text: (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: translation locale greaseString) at: 'name'))	" (self localize: 'CW_Translation') " ].
+									html text: (self localize: ((CWNaturalLanguageTranslator languagesEnglishNative at: translation locale language greaseString) at: 'name'))	" (self localize: 'CW_Translation') " ].
 							html mdlCell
 								size: 4;
 								with: [ html label: translation base.
